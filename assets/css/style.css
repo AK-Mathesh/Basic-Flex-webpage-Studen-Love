@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* ! header start */
+
+header{
+    background-color: #750DB5;
+    color: #fff;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.header-wrapper h4{
+    font-size: 32px;
+}
+
+.header-wrapper ul{
+    display: flex;
+    gap: 70px;
+}
+
+.header-wrapper ul li a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* ! header end */
+
+/* ! Banner Start */
+
+.banner{
+    padding: 60px 0px;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.banner-wrapper h1{
+    font-size: 48px;
+    margin: 20px 0px;
+}
+
+.banner-wrapper p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-btn a{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.banner-btn a:first-child{
+    padding: 15px 30px;
+    background-color: #ffa92c;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow:0px 0px 10px #ffa92c;
+}
+
+.banner-btn a:last-child{
+    gap: 10px;
+}
+/* ! Banner End */
+
+/* ! Tiles Banner Start */
+.tiles img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiles-banner h2{
+    font-size: 32px;
+    margin: 10px 0px;
+}
+
+.tiles-wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.tiles{
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px 0px 40px 0px;
+}
+
+.tiles:first-child{
+    background: #24BDFF;
+}
+.tiles:nth-child(2){
+    background: #FF4466;
+}
+.tiles:last-child{
+    background: #AE30FC;
+}
+
+.tiles p{
+    padding: 10px 0px;
+}
+/* 
+.tiles .para:first-child{
+    font-weight: bold;
+} */
+
+.last-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.last-wrap a{
+    border: 2px solid black;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* ! Tiles Banner End */
+
+/* ! Footer section start */
+footer{
+    display: flex;
+    background: #ababab;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer p span{
+    color: #002868;
+    font-weight: bold;
+}
+/* ! Footer section end*/
